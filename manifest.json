@@ -1,0 +1,15 @@
+{
+    "name": "Chrome Extension v3 API Request",
+    "description": "Testing API Requests with the Chrome Extension Manifest Version 3",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://upload.wikimedia.org/*"
+    ]
+}
